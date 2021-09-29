@@ -1,0 +1,102 @@
+@import url(font.css);
+:root{
+    /*      theme font-family   */
+    --Explora:'Explora';
+    --GrechenFuemen:'GrechenFuemen';
+    --FleurDeLeah:'FleurDeLeah';
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Century gothic;
+}
+
+header
+{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(bg2.jpg);
+    height: 98vh;
+    background-size: cover;
+    background-position: center;
+}
+ul
+{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li
+{
+    display: inline-block;
+}
+ ul li a
+ {
+     text-decoration: none;
+     color: aliceblue;
+     padding: 5px 20px;   
+     border:  1px solid transparent; 
+     transition: 0.6s ease;
+ }
+ ul li a:hover
+ {
+     background-color:orange;
+     color: black; 
+ }
+ul li.active a
+{
+    background-color:orange;
+    color: black; 
+}
+ .logo img
+ {
+     float: left;
+     width:100px;
+     height: 100px;
+ }
+ .main
+ {
+     max-width: 1200px;
+     margin: auto;
+ }
+ .title
+ {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+ }
+ .title h1
+ {
+     color:blanchedalmond;
+     font-size: 80px;
+     font-family:var(--FleurDeLeah);
+     
+     }
+ .title h2
+ {
+     color:white;
+     font-size: 30px;
+     font-family:var(--Explora);
+     color: orange;
+ }
+.button
+{
+    position: absolute;
+     top: 62%;
+     left: 50%;
+     transform: translate(-50%,-50%);
+}
+.btn
+{
+    border: 1px solid transparent;
+    padding: 10px 10px;
+    text-decoration: none;
+    color: #fff;
+    transition: 0.6s ease;
+
+}
+.btn:hover
+{
+    background-color:orange;
+     color: black; 
+}

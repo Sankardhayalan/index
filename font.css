@@ -1,0 +1,15 @@
+/*  font-family: Explora  */
+@font-face {
+    font-family:Explora;
+    src: url('Explora-Regular.ttf');
+}
+/*  font-family: FleurDeLeah  */
+@font-face {
+    font-family:FleurDeLeah;
+    src: url('FleurDeLeah-Regular.ttf');
+}
+/*  font-family: GrechenFuemen  */
+@font-face {
+    font-family:GrechenFuemen;
+    src: url('GrechenFuemen-Regular.ttf');
+}
